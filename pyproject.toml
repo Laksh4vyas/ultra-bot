@@ -1,8 +1,12 @@
-[project]
+[tool.poetry]
 name = "ultra-bot"
 version = "0.1.0"
-package-mode = false
-description = "Add your description here"
-readme = "README.md"
-requires-python = ">=3.10"
-dependencies = []
+description = ""
+authors = ["Your Name <your@email.com>"]
+package-mode = false  # ✅ THIS LINE FIXES THE ISSUE!
+
+[tool.poetry.dependencies]
+python = "^3.10"
+streamlit = "^1.30.0"
+
+# Add your other dependencies here if you have any
