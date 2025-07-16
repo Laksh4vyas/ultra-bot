@@ -9,6 +9,8 @@ package-mode = false  # ✅ THIS LINE FIXES THE ISSUE!
 python = "^3.10"
 streamlit = "^1.30.0"
 python-dotenv = "^1.0"
+google-generativeai = "^0.4.0"
+
 
 
 # Add your other dependencies here if you have any
