@@ -8,5 +8,7 @@ package-mode = false  # ✅ THIS LINE FIXES THE ISSUE!
 [tool.poetry.dependencies]
 python = "^3.10"
 streamlit = "^1.30.0"
+python-dotenv = "^1.0"
+
 
 # Add your other dependencies here if you have any
